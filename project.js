@@ -17,9 +17,7 @@ function getProjectList() {
   projects.forEach(function (project) {
 
     // GitHubの情報
-    var user = "nn-nissy1010"; // レポジトリのオーナー名を入れてください
     var repository = project[0]; // 出したいレポジトリ名を入れてください
-    var token = "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"; // 上記で発行したaccess tokenを入れてください
     var project_name2 = project[1]; // 使いたいproject名を入力して下さい
     var project_id
     var projectSheet = activeSpreadSheet.getSheetByName(project_name2); // シート(SpreadSheetの下のタブ名を指定)
