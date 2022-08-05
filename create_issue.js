@@ -3,8 +3,6 @@ function makeIssues() {
   var sheet = ss.getActiveSheet();
 
   // GitHubの情報
-  var OWNER = "nn-nissy1010"; // レポジトリのオーナー名を入れてください
-  var ACCESS_TOKEN = "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"; // 上記で発行したaccess tokenを入れてください
   var project_id
   // スプレッドシートの情報
   //コメントアウトにあるものの列番号を記入して下さい
